@@ -12,7 +12,7 @@ La carpeta `public` agrupa todos los archivos "estáticos" que se usan para el f
 Modificar el archivo `index.js` para customizar el backend.
 
 
---> *Si lo usas, si tenés algún tipo de feedback o problema, hacemelo llegar por favor :)*
+:wave: *Si lo usas, si tenés algún tipo de feedback o problema, hacemelo llegar por favor :)*
 
 ---
 
@@ -29,6 +29,6 @@ The `public` folder groups all the "static" files used for the frontend such as 
 Modify the `index.js` file to customize the backend.
 
 
---> *If you use it or if you have any feedback or problem, please let me know :)*
+:wave: *If you use it or if you have any feedback or problem, please let me know :)*
 
-:dizzy::dizzy::milky_way::milky_way:
+:dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy::dizzy:
