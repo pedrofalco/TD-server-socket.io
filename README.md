@@ -1,4 +1,4 @@
-## simple server setup
+## simple server setup 💭
 
 Simple template con lo mínimo para crear una aplicación web o un servidor web que puede ser utilizado para diseñar una api, construir un bot, manejar una base de datos, testear tu propia web o correr tus propios sketches generativos.
 
@@ -29,4 +29,4 @@ The ==public== folder groups all the "static" files used for the frontend such a
 Modify the ==index.js== file to customize the backend.
 
 
--> *If you use it or if you have any feedback or problem, please let me know :)*
+--> *If you use it or if you have any feedback or problem, please let me know :)*
