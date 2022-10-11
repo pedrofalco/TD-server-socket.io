@@ -1,4 +1,6 @@
+//UTILIZAR EL MODULO "EXPRESS"
 const express = require('express');
+
 const app = express();
 const server = app.listen(1111, () => console.log('listening @ 1111'));
 
