@@ -1,5 +1,6 @@
 ## simple server setup 💭
 
+`ES`
 Simple template con lo mínimo para crear una aplicación web o un servidor web que puede ser utilizado para diseñar una api, construir un bot, manejar una base de datos, testear tu propia web o correr tus propios sketches generativos.
 
 1. Descargar o clonar el repositorio en tu computadora.
@@ -17,6 +18,7 @@ Modificar el archivo `index.js` para customizar el backend.
 ---
 
 
+`EN`
 Simple template with the minimum to create a web application or a web server that can be used to design an api, build a bot, manage a database, test your own web or run your own generative sketches.
 
 1. Download or clone the repo to your computer.
