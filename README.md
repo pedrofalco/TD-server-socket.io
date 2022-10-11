@@ -1,4 +1,4 @@
-# simple server setup
+## simple server setup
 
 Simple template con lo mínimo para crear una aplicación web o un servidor web que puede ser utilizado para diseñar una api, construir un bot, manejar una base de datos, testear tu propia web o correr tus propios sketches generativos.
 
@@ -11,10 +11,10 @@ Simple template con lo mínimo para crear una aplicación web o un servidor web 
 La carpeta ==public== agrupa todos los archivos "estáticos" que se usan para el frontend como los `.html`, `.js`, `.css`, logos, videos, etc.
 Modificar el archivo ==index.js== para customizar el backend.
 
+
+--> *Si lo usas, si tenés algún tipo de feedback o problema, hacemelo llegar por favor :)*
+
 ---
-
-*Si lo usas, si tenés algún tipo de feedback o problema, hacemelo llegar por favor :)*
-
 
 
 Simple template with the minimum to create a web application or a web server that can be used to design an api, build a bot, manage a database, test your own web or run your own generative sketches.
@@ -28,6 +28,5 @@ Simple template with the minimum to create a web application or a web server tha
 The ==public== folder groups all the "static" files used for the frontend such as `.html`, `.js`, `.css`, logos, videos, etc.
 Modify the ==index.js== file to customize the backend.
 
----
 
-*If you use it or if you have any feedback or problem, please let me know :)*
+-> *If you use it or if you have any feedback or problem, please let me know :)*
