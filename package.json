@@ -1,5 +1,5 @@
 {
-    "name": "simple-server-setup",
+    "name": "TD-server-socket.io",
     "version": "1.0.0",
     "description": "A simple setup to create your own server that can be used for more complex apps // Un setup simple para crear tu propio server que sirva para hacer aplicaciones más complejas",
     "main": "index.js",
@@ -10,7 +10,8 @@
     "author": "Pedro Falco",
     "license": "MIT",
     "dependencies": {
-        "express": "^4.18.2"
+        "express": "^4.18.2",
+        "socket.io": "^2.0.1"
     },
     "nodemonConfig": {
         "ext": "js,html"
