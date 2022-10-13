@@ -1,22 +1,45 @@
 //UTILIZAR EL MODULO "EXPRESS"
 const express = require('express');
-const socket = require("socket.io");
+const Datastore = require('nedb');
+
 
 //EXPRESS
 const app = express();
 const server = app.listen(1111, () => console.log('listening @ 1111 --> http://localhost:1111'));
+app.use(express.json({
+    limit: '1mb'
+}));
 
-//SOCKET.IO
-const io = socket(server);
-io.sockets.on('connection', newConnection);
+//NEDB
+const database = new Datastore('database.db');
+database.loadDatabase();
 
 
-function newConnection(socket) {
-    console.log('new connection: ' + socket.id);
+//API POST ENDPOINT
+app.post('/api', (request, response) => {
 
-    socket.on('data', (data) => {
-        console.log(data);
+    //REQUEST
+    const data = request.body;
+    const txt = JSON.stringify(data.message);
 
-        io.emit('data', data);
+    console.log(`post message: ${txt}`);
+
+    //PROCESS
+    database.insert(data);
+
+    //RESPONSE
+    response.json(data);
+
+});
+
+
+//API GET ENDPOINT
+app.get('/api', (request, response) => {
+    database.find({}, (err, data) => {
+        if (err) {
+            response.end();
+            return;
+        }
+        response.json(data);
     });
-};
+});
