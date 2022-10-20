@@ -31,7 +31,7 @@ http://localhost:1111
 ```
 
 La carpeta `public` agrupa todos los archivos "estáticos" que se usan para el frontend como los `.html`, `.js`, `.css`, logos, videos, etc.
-Modificar el archivo `index.js` para customizar el backend. En este caso, el archivo `index.html` contiene un minimo frontend para enviar un mensaje via Socket.IO. Lo que se encuentra dentro del tag <script> </script> podes movelo a un archivo `.js` y referenciarlo.
+Modificar el archivo `index.js` para customizar el backend. En este caso, el archivo `index.html` contiene un minimo frontend para enviar un mensaje via Socket.IO. Lo que se encuentra dentro del tag `<script>`  `</script>` podes movelo a un archivo `.js` y referenciarlo.
 
 Los eventos "dataToTD" y "dataFromTD" sirven para que los mensajes no entren y salgan en loop. En el caso de que se quiera que los mensajes que salgan también vuelvan a entrar, deberías modificar estos dos nombres de los eventos a un único evento (ej.: "data").
 
@@ -71,7 +71,7 @@ http://localhost:1111
 ```
 
 Also, the `public` folder contains all the `static` files used for the frontend such as `.html`, `.js`, `.css`, logos, videos, etc.
-Feel free to modify the `index.js` file to customize your backend. In this case, the `index.html` file contains a minimal frontend to send a message via Socket.IO. You can move what's inside the <script> </script> tag to a external `.js` file and reference it.
+Feel free to modify the `index.js` file to customize your backend. In this case, the `index.html` file contains a minimal frontend to send a message via Socket.IO. You can move what's inside the `<script>`  `</script>` tag to a external `.js` file and reference it.
 
 The events "dataToTD" and "dataFromTD" are used to prevent messages from looping in and out. In case you want the outgoing messages to also loop back in, you should modify these two event names to a single event (e.g., "data").
 
