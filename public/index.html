@@ -8,7 +8,33 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 	<script src="script.js"></script>
+=======
+
+	<script>
+		
+  		const socket = io();
+
+		socket.on("connect", () => { console.log(socket.id) });
+
+		let input = document.createElement('input');
+		let btn = document.createElement("button");
+		btn.textContent = "Emit";
+
+		document.body.append(input, btn);
+
+		btn.onclick = () => { 
+			socket.emit("dataToTD", input.value);
+			console.log(`mensaje emitido: ${input.value}`);
+		};
+
+		socket.on("dataFromTD", (data) => {
+			console.log(`mensaje recibido: ${data}`);		
+		});
+
+	</script>
+>>>>>>> 407a8e2933b91fe66548b612cd0aad3cfe8cc9ed
 	
 </body>
 </html>
