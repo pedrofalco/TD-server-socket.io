@@ -5,7 +5,7 @@ Template + componente para comunicar una aplicacion web o un servidor web con [T
 El componente en este repositorio sirve para escuchar eventos desde TouchDesigner como también para emitir eventos. Está pensando para ser usado con una interfaz web que busque comunicarse con TouchDesigner pero sus casos de uso pueden ser varias.
 Como TouchDesigner utiliza Socket.IO v2 es necesario instalar esta version en Node.js.
 
-### Rápida instalación con Node.js y npm
+### Rápida instalación con Node.js y npm 🚩
 
 Para usar este respositorio es necesario descargar [Node.js](https://nodejs.org/es/).
 
@@ -15,7 +15,7 @@ Para usar este respositorio es necesario descargar [Node.js](https://nodejs.org/
 
 3. `npm start` para inicilizar la app.
 
-### Comentarios y comandos
+### Comentarios y comandos 🚏 
 
 Para inicializar en modo *test* (la app se reiniciará cada vez que se haga un cambio en ella) ejecutar en la consola:
 
@@ -45,7 +45,7 @@ Template + component to communicate a web application or a web server with [Touc
 The goal of the component in this repo is to listen for events from TouchDesigner as well as to emit events. The component is intended to be used with a web interface that seeks to communicate with TouchDesigner but its use cases can be several.
 As TouchDesigner uses Socket.IO v2 it is necessary to install this version in Node.js.
 
-### Quick Start with Node.js & npm
+### Quick Start with Node.js & npm 🚩
 
 To use this repository you'll need to download [Node.js](https://nodejs.org/es/).
 
@@ -55,7 +55,7 @@ To use this repository you'll need to download [Node.js](https://nodejs.org/es/)
 
 3. `npm start` to start the app.
 
-### Comments & commands
+### Comments & commands 🚏 
 
 In order to start in *test* mode (the app will be restarted each time a change is made to it):
 
